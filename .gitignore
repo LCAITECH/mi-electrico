@@ -1,7 +1,9 @@
 node_modules
 .node_modules.lock
 .vercel
-.grok
+.grok/*
+!.grok/app-env.json
+!.grok/project_memory.md
 .tanstack
 screenshots
 artifacts
@@ -12,5 +14,4 @@ dist
 .env.*
 *.log
 .DS_Store
-AGENTS.md
 AGENTS.project.md

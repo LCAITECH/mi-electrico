@@ -14,11 +14,16 @@ Gratis, sin registro. Los precios, autonomías y cargadores salen de fichas y li
 ## Cómo correrlo
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-El servidor de desarrollo escucha en el puerto 8080.
+El servidor de desarrollo escucha en el puerto 8080. Las dependencias quedan fijadas en `package-lock.json`.
+
+## Para Grok
+
+Las reglas del producto están en `AGENTS.md`. La memoria corta está en `.grok/project_memory.md`. Auth queda apagada con `.grok/app-env.json`.
+
 
 ## Datos
 
